@@ -1,12 +1,12 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /* Styles for the body */
 
 body {
-	font-family:'PT Serif', serif; sans-serif;
+	font-family: 'PT Serif', serif;
 	color: #000768;
 	background-color: #f8f8fc;
 }
@@ -48,4 +48,10 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+/*Styles added by student */
+.nametitle {
+	font-family: 'Anton', sans-serif;
+	color: aliceblue;
 }
